@@ -17,10 +17,11 @@
   "scripts": {
     "build": "skpm-build",
     "watch": "skpm-build --watch",
+    "dev": "skpm-build --watch --output ../../../Users/yxiao058/AppData/Local/Icons8/Lunacy/Plugins/mini-plugin.sketchplugin/",
     "start": "skpm-build --watch --run",
     "postinstall": "npm run build && skpm-link"
   },
   "devDependencies": {
-    "@skpm/builder": "^0.8.0"
+    "@skpm/builder": "^0.7.0"
   }
 }
