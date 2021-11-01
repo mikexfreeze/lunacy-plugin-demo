@@ -1,0 +1,23 @@
+{
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "run",
+      "identifier": "picasso.parse-select",
+      "script": "__index.js"
+    }
+  ],
+  "menu": {
+    "title": "test",
+    "items": [
+      "picasso.parse-select"
+    ]
+  },
+  "version": "0.0.1",
+  "description": "lunacy-test",
+  "name": "lunacy-test",
+  "identifier": "lunacy-test",
+  "disableCocoaScriptPreprocessor": true,
+  "author": "Michael Xiao",
+  "authorEmail": "mikexfreeze@gmail.com"
+}
